@@ -1,5 +1,7 @@
 <template>
-    <div>HOME主页</div>
+    <div class="home-wrapper">
+       
+    </div>
 </template>
 
 <script>
@@ -14,3 +16,12 @@ export default defineComponent({
     }
 });
 </script>
+
+<style lang="scss" scoped>
+    .home-wrapper {
+        width: 100vw;
+        height: 100vh;
+        background-image: url('../assets/pagesimg');
+        background-size: 100% 100%;
+    }    
+</style>
